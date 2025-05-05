@@ -1,0 +1,38 @@
+In java, everything should be written in class only and main method. Whatever data given to java , it will be in the form of strings and it will store in array.
+
+
+in scanner class , we have multiple pre-defined methods. Thus creating an object for scanner class , u can access those pre-defined methods.
+
+
+import java.util.Scanner;
+class person{
+    scanner
+}
+Class Main{
+   public static void Main(String args[]){
+        Scanner sc = new Scanner(system.in);
+        int a = sc.nextInt();
+        System.out.println("a");
+  }
+}
+
+NWEEEEE
+
+import java.util.Scanner;
+class person{
+    void call(){
+         Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        System.out.println("a");
+    }
+}
+class Main{
+   public static void Main(String args[]){
+       person obj = new person();
+       obj.call();
+  }
+}
+
+
+"creat a class using class keyword and name of the class, starting of the class should be capital and no bracket"
+"all the methods name of the method should be small"
