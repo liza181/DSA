@@ -1,0 +1,51 @@
+*Static block and cunstructor*
+
+cunstructers are used to inisialize our objects, for every clASS there will be defoult constructor whenever create an object constructor will be callde that object will be created
+constructor having class name are method properties
+
+EXAM:-
+public class q2 {
+    public static void main(String[ args]){
+        Demo d1 = new Demo();
+        Demo d2 = new Demo();1
+    }
+}
+class Demo {
+    static {
+        System.out.println("Static block");
+        Demo(); {
+            system.out.println("Constructor");
+        }
+    }
+
+
+Static block will be created with the static keyword it will called autometically no need to call it either object or class 
+
+static method:- 
+for static method no need to call with objects you can directly call with class name and here static will act as instance or object
+
+conditional statement
+Types 
+If – else, else - if ladder, switch case
+Conditional statements are used to check the condition and to print the relevant block in constant time 
+if  (statement)
+     {
+       return truee or else return false  
+     }
+ else 
+     {
+   if gives false then we use this else part 
+     }
+ 
+ control statements:
+   entry control loop 
+      for and while loop 
+ eg of for: 
+  for(start;end; diff)
+ eg for start:
+   start;
+   while(end){
+      diff;
+   }
+ when we know the range we will use for loop and when we dont know the range we prefer to use while loop
+   exit control loop
