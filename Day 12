@@ -1,0 +1,9 @@
+#Majority element 
+
+1.From the given array, assume that starting index ofd the array is the majority element.FRom the targeted comapre rest of the elements.
+2.So if youn got same value , increase the count.If you get the different count decrease the count .
+3.If counter become 0 , it means til now we havent see any majority element .
+4.Again szelect the new target element . very next element is ur target element 
+5.At the end of for loop , if ounter is more than 0 , it means there is a majority element.
+6.Taking the target  value , count how many times that were repeated in an array. 
+7.If the counter is greater n/2 it means that my majority element .
