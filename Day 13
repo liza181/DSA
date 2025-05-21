@@ -1,0 +1,49 @@
+#Subarray         #SubSet           #Subsequence             #Substring
+
+1.[1,2] *         1.[1,2]   *          1.ab    *               1.ab *
+2.[1,3]           2.[1,3]   *          2.bc    *               2.bc *
+3.[2,3] *         3.[2,1]              3.ac    *               3.ac
+4.[3,2]           4.[2,3]   *          4.ca                    4.ca
+
+
+#Subarray 
+A subarray is a contiguous section of an array. In simpler terms, it's a portion of the array that starts at one index and ends at another index, without skipping any elements in between.
+
+ #SubSet  
+A subset in Java refers to a selection of elements from a set, where the order of elements does not matter, and no element is repeated.
+A subset can include any number of elements, from none (the empty set) to all elements of the original set. If a set has n elements, it has 2^n subsets. 
+
+#Subsequence
+the String class provides the subSequence() method. This subSequence() method extracts a portion of a string as a CharSequence . 
+This method is useful for retrieving specific character ranges from a string which enhances string manipulation.
+
+ #Substring
+The substring() method in Java extracts a portion of a string, returning it as a new string. 
+
+
+#Greedy Algorithm :
+1. N meetings in a room
+2. Job scheduling 
+3. 0/1 fractional knapsack.
+
+#N-meetings in a room
+Input:  N = 6,  start[] = {1,3,0,5,8,5}, end[] =  {2,4,5,7,9,9}
+
+Output: 1 2 4 5
+
+Explanation: See the figure for a better understanding. 
+
+#job scheduling
+Input: N = 4, Jobs = {(1,4,20),(2,1,10),(3,1,40),(4,1,30)}
+
+Output: 2 60
+
+Explanation: The 3rd job with a deadline 1 is performed during the first unit of time .The 1st job is performed during the second unit of time as its deadline is 4.
+Profit = 40 + 20 = 60
+
+#0/1 fractional knapsack problem
+Input: N = 3, W = 50, values[] = {100,60,120}, weight[] = {20,10,30}.
+
+Output: 240.00
+
+Explanation: The first and second items  are taken as a whole  while only 20 units of the third item is taken. Total value = 100 + 60 + 80 =
